@@ -23,14 +23,13 @@ ROS2 adalah framework komunikasi terdistribusi untuk pengembangan robotika. Berb
 
 2. Komponen Utama
 Berdasarkan implementasi pada Task 1, komponen yang digunakan adalah:
-
-Node: Sebuah proses yang menjalankan tugas spesifik (misal: `status_publisher`).
-Topic: Saluran komunikasi asinkron untuk aliran data kontinu (digunakan oleh Publisher dan Subscriber).
-Service: Model komunikasi dua arah (Request-Response) untuk tugas jangka pendek (digunakan oleh Server dan Client).
-Message: Format data standar (seperti `String` atau `SetBool`) yang dikirim antar node.
+- Node: Sebuah proses yang menjalankan tugas spesifik (misal: `status_publisher`).
+- Topic: Saluran komunikasi asinkron untuk aliran data kontinu (digunakan oleh Publisher dan Subscriber).
+- Service: Model komunikasi dua arah (Request-Response) untuk tugas jangka pendek (digunakan oleh Server dan Client).
+- Message: Format data standar (seperti `String` atau `SetBool`) yang dikirim antar node.
 
 3. Alur Komunikasi
 Dalam sistem yang dibangun:
-1. Publisher Node mengirimkan status robot ke topik `/robot_status` secara berkala.
-2. Subscriber Node mendengarkan topik tersebut dan memproses datanya.
-3. Service Server menunggu permintaan pada service `/get_status` dan memberikan jawaban instan kepada Service Client.
+- Publisher Node mengirimkan status robot ke topik `/robot_status` secara berkala.
+- Subscriber Node mendengarkan topik tersebut dan memproses datanya.
+- Service Server menunggu permintaan pada service `/get_status` dan memberikan jawaban instan kepada Service Client.
