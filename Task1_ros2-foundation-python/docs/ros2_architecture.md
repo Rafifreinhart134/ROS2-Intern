@@ -17,7 +17,7 @@ In the system built for this task:
 
 
 
-IND
+**(IND)**
 1. Apa itu ROS2?
 ROS2 adalah framework komunikasi terdistribusi untuk pengembangan robotika. Berbeda dengan program tunggal yang besar, ROS2 membagi fungsi robot ke dalam modul-modul kecil yang disebut Nodes.
 
