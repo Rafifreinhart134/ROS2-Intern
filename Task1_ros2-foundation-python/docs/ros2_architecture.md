@@ -1,5 +1,5 @@
 1. What is ROS2?
-ROS2 is a distributed communication framework designed for robotics development. Instead of running one monolithic program, ROS2 breaks down robot functions into smaller, modular units called Nodes.
+ROS2 is a distributed communication framework designed for robotics development. Instead of running one monolithic program, ROS2 breaks down robot functions into smaller, modular units called Nodes. ROS2 makes communication between sensors easier without having to worry about UART or different data sending processes, for example, camera data and lidar data are different but can still be received by the master/microcontroller without worrying about converting each different data so that it can be processed.
 
 2. Core Components
 Based on the implementation in Task 1, we utilized the following components:
@@ -19,7 +19,7 @@ In the system built for this task:
 
 **(IND)**
 1. Apa itu ROS2?
-ROS2 adalah framework komunikasi terdistribusi untuk pengembangan robotika. Berbeda dengan program tunggal yang besar, ROS2 membagi fungsi robot ke dalam modul-modul kecil yang disebut Nodes.
+ROS2 adalah framework komunikasi terdistribusi untuk pengembangan robotika. Berbeda dengan program tunggal yang besar, ROS2 membagi fungsi robot ke dalam modul-modul kecil yang disebut Nodes. ROS2 mempermudah komunikasi antarsensor tanpa perlu memusingkan UART atau proses pengiriman data yang berbeda, misalnya data camera dengan data lidar itu berbeda namun tetap bisa diterima oleh master/mikrokontroller tanpa mengkhawatirkan convert tiap data yang berbeda agar bisa diolah
 
 2. Komponen Utama
 Berdasarkan implementasi pada Task 1, komponen yang digunakan adalah:
